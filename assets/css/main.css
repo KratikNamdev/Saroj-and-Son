@@ -2103,8 +2103,8 @@ i[class^=flaticon-] {
   position: fixed;
   bottom: 35px;
   right: 30px;
-  height: 44px;
-  width: 44px;
+  height: 1px;
+  width: 1px;
   cursor: pointer;
   display: block;
   border-radius: 50px;
@@ -2120,7 +2120,7 @@ i[class^=flaticon-] {
   color: var(--clr-common-heading);
   justify-content: center;
   background-color: var(--clr-common-white);
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0);
 }
 .backtotop-wrap:hover {
   transform: translateY(-2px);
@@ -2136,7 +2136,7 @@ i[class^=flaticon-] {
 .backtotop-wrap::after {
   position: absolute;
   font-family: var(--bd-ff-fontawesome);
-  content: "\f062";
+  content: "";
   text-align: center;
   line-height: 44px;
   font-size: 16px;
@@ -2156,7 +2156,7 @@ i[class^=flaticon-] {
   fill: none;
 }
 .backtotop-wrap svg.backtotop-circle path {
-  stroke: #ccc;
+  stroke: #cccccc00;
   stroke-width: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -13602,4 +13602,26 @@ p.checkout-coupon input[type=text]:focus {
 }
 .bga2{
   background-image: url(../offer1\ \(2\).png);
+}
+.whatsappicon{
+  position: fixed;
+  z-index: 100;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.whatsappicon img{
+  height: 70px;
+}
+@media (max-width:650px) {
+.whatsappicon{
+  position: fixed;
+  z-index: 100;
+  bottom: 20px;
+  right: 20px;
+}
+.whatsappicon img{
+  height: 50px;
+}
 }
