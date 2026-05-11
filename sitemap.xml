@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <!-- Home Page -->
+   <url>
+      <loc>https://sarojandson.com/</loc>
+      <lastmod>2026-05-11</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+   </url>
+
+   <!-- About Page -->
+   <url>
+      <loc>https://sarojandson.com/about.html</loc>
+      <lastmod>2026-05-11</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <!-- Products Page -->
+   <url>
+      <loc>https://sarojandson.com/products.html</loc>
+      <lastmod>2026-05-11</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+   </url>
+
+   <!-- Services Page -->
+   <url>
+      <loc>https://sarojandson.com/services.html</loc>
+      <lastmod>2026-05-11</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <!-- Contact Page -->
+   <url>
+      <loc>https://sarojandson.com/contact.html</loc>
+      <lastmod>2026-05-11</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+
+</urlset>
